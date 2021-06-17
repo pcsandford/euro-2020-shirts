@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pcsandford/euro-2020-shirts.git/static/css/main.b3607b53.chunk.css",
+    "main.js": "/pcsandford/euro-2020-shirts.git/static/js/main.140b59fb.chunk.js",
+    "main.js.map": "/pcsandford/euro-2020-shirts.git/static/js/main.140b59fb.chunk.js.map",
+    "runtime-main.js": "/pcsandford/euro-2020-shirts.git/static/js/runtime-main.081fd9dc.js",
+    "runtime-main.js.map": "/pcsandford/euro-2020-shirts.git/static/js/runtime-main.081fd9dc.js.map",
+    "static/js/2.5b1cddc9.chunk.js": "/pcsandford/euro-2020-shirts.git/static/js/2.5b1cddc9.chunk.js",
+    "static/js/2.5b1cddc9.chunk.js.map": "/pcsandford/euro-2020-shirts.git/static/js/2.5b1cddc9.chunk.js.map",
+    "index.html": "/pcsandford/euro-2020-shirts.git/index.html",
+    "static/css/main.b3607b53.chunk.css.map": "/pcsandford/euro-2020-shirts.git/static/css/main.b3607b53.chunk.css.map",
+    "static/js/2.5b1cddc9.chunk.js.LICENSE.txt": "/pcsandford/euro-2020-shirts.git/static/js/2.5b1cddc9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.081fd9dc.js",
+    "static/js/2.5b1cddc9.chunk.js",
+    "static/css/main.b3607b53.chunk.css",
+    "static/js/main.140b59fb.chunk.js"
+  ]
+}

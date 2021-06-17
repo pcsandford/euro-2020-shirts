@@ -2,7 +2,7 @@
   "name": "euro-2020-players",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pcsandford/euro-2020-shirts.git",
+  "homepage": "https://pcsandford/euro-2020-shirts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

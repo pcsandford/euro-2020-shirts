@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './assets/style.css'
+import Header from './Header.js'
+import Shirts from './Shirts.js'
+import Footer from './Footer.js'
+import data from './assets/data'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+    // const [selectedTeam, setSelectedTeam] = useState(16);
+
+    // const setSelected = (e) => {
+
+    //     setSelectedTeam(e.target.value);
+    
+    //     }
+
+    return (
+        <main>
+            <section className="wrapper">
+                <Header title="euro 2020" subtitle="Team shirts of all 20 competing nations."/>
+                <Shirts teams={data}/>
+            </section>
+                <Footer footerText="Built with ⚽️ ❤️ by"/>
+        </main>
+    )
 }
 
-export default App;
+export default App

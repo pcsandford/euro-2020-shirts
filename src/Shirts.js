@@ -14,9 +14,7 @@ const Shirts = ({teams}) => {
                             <p className="detail group">Group: <span className="bold">{team.group}</span></p>
                             <p 
                                 className="detail appearances">
-                                Total appearances: 
-                                <span className="bold">
-                                     {team.appearances}
+                                Total appearances: <span className="bold">{team.appearances}
                                     {team.appearancesExtra ? <span className="asterisk">&#42;</span> : null}
                                 </span>
                             </p>

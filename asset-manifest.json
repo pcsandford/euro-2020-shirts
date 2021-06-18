@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/euro-2020-shirts/static/css/main.c7a729ad.chunk.css",
-    "main.js": "/euro-2020-shirts/static/js/main.ff0b9e23.chunk.js",
-    "main.js.map": "/euro-2020-shirts/static/js/main.ff0b9e23.chunk.js.map",
+    "main.js": "/euro-2020-shirts/static/js/main.e703f8df.chunk.js",
+    "main.js.map": "/euro-2020-shirts/static/js/main.e703f8df.chunk.js.map",
     "runtime-main.js": "/euro-2020-shirts/static/js/runtime-main.378532eb.js",
     "runtime-main.js.map": "/euro-2020-shirts/static/js/runtime-main.378532eb.js.map",
     "static/js/2.5b1cddc9.chunk.js": "/euro-2020-shirts/static/js/2.5b1cddc9.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.378532eb.js",
     "static/js/2.5b1cddc9.chunk.js",
     "static/css/main.c7a729ad.chunk.css",
-    "static/js/main.ff0b9e23.chunk.js"
+    "static/js/main.e703f8df.chunk.js"
   ]
 }

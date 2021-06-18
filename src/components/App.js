@@ -23,7 +23,7 @@ const App = () => {
         <main>
             <section className="wrapper">
                 <div className="header-collection">
-                    <Header title="euro 2020" subtitle="Team shirts of all 20 competing nations."/>
+                    <Header title="euro 2020" subtitle="Team shirts of all 24 competing nations."/>
                     <Selector teams={data} setSelectedTeam={setSelected}/>
                 </div>
                 <Shirts teams={data} selectedTeam={selectedTeam}/>

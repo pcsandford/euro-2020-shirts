@@ -16,7 +16,7 @@ const Shirts = ({teams}) => {
                                 className="detail appearances">
                                 Total appearances: 
                                 <span className="bold">
-                                    {team.appearances}
+                                     {team.appearances}
                                     {team.appearancesExtra ? <span className="asterisk">&#42;</span> : null}
                                 </span>
                             </p>

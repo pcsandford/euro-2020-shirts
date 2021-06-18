@@ -21,6 +21,24 @@ body {
     color:var(--text);
 }
 
+select {
+    border:3px solid var(--text);
+    border-radius: 2px;
+    margin:0 0 30px 0;
+    padding:5px 15px;
+    font-family: var(--text-header);
+    font-weight:400;
+    font-size:1.6rem;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background: url(arrow.png) no-repeat;
+    background-size:20px;
+    background-position:95% 50%;
+
+}
+
 h1 {
     font-family: var(--text-header);
     text-transform: uppercase;
@@ -40,7 +58,7 @@ h2 {
     font-weight:700;
     font-size:3rem;
     width:100%;
-    margin:30px 0 60px 0;
+    margin:30px 0 40px 0;
 }
 
 p {
@@ -58,7 +76,7 @@ main {
 
 header {
     width:100%;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .shirt-container {
@@ -83,6 +101,12 @@ header {
 }
 
 @media screen and (max-width: 1300px) {
+
+    h2 {
+        width:80%;
+        margin-top: 40px;
+    }
+
     .shirt-collection {
         width:50%;
     }
@@ -104,6 +128,18 @@ header {
 
     .shirt-collection {
         width:100%;
+    }
+
+    .header-collection {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    select {
+        width:80%;
+        margin-top:15px;
     }
 }
 
